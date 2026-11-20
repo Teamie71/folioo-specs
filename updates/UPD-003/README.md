@@ -1,5 +1,7 @@
 # v.3
 
+[레포 관리 구조](../../README.md) / updates / **UPD-003**
+
 - 업데이트 ID: `UPD-003`
 - 기획 문서: [v.3 PRD](PRD.md) (`DOC-001`)
 - 원문: [Notion v.3 PRD](https://app.notion.com/p/v-3-PRD-04a66be5909b83dcbdc20121449d4705)
