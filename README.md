@@ -81,6 +81,7 @@
 | `registry/screens.json` | 화면 ID와 관련 기능·문서 위치 색인 |
 | `registry/documents.json` | 논리 문서 ID와 파일 위치 색인 |
 | `docs/reading-guide.md` | 승인본·초안·계승·과거 최종본을 구분하는 공통 읽기 기준 |
+| `docs/commit-convention.md` | 커밋 유형·한글 제목·한 커밋 한 작업 기준 |
 | `review/criteria.md` | 문서 정합성·누락·정책·UX 등 상세 리뷰 기준 |
 | `.github/pull_request_template.md` | 기획 문서 등록·변경·검토용 PR 양식 |
 | `README.md` | 문서 탐색 순서와 대표 구조 안내 |
@@ -97,4 +98,5 @@ main은 최신 승인 기획이며 개발·배포 완료를 뜻하지 않습니�
 
 ## 작성 기준
 
+- [커밋 유형·작업 단위·한글 요약 작성 기준](docs/commit-convention.md)
 - [기획 문서용 PR 양식](.github/pull_request_template.md)
