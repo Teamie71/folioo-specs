@@ -26,6 +26,7 @@
 | `registry/` | 업데이트·기능·화면·문서의 ID와 위치 색인 | 초기 설정에 포함 |
 | `docs/` | 문서 읽기·문서 및 레포 운영·커밋 작성 기준 | 초기 설정에 포함 |
 | `review/` | 기획 문서의 상세 리뷰 기준 | 초기 설정에 포함 |
+| `.github/` | GitHub PR 템플릿 | 초기 설정에 포함 |
 
 ### 업데이트별 문서
 
@@ -81,6 +82,7 @@
 | `registry/documents.json` | 논리 문서 ID와 파일 위치 색인 |
 | `docs/reading-guide.md` | 승인본·초안·계승·과거 최종본을 구분하는 공통 읽기 기준 |
 | `review/criteria.md` | 문서 정합성·누락·정책·UX 등 상세 리뷰 기준 |
+| `.github/pull_request_template.md` | 기획 문서 등록·변경·검토용 PR 양식 |
 | `README.md` | 문서 탐색 순서와 대표 구조 안내 |
 | `AGENTS.md` | 레포에서 작업하거나 질문에 답하는 에이전트의 공통 지침 |
 | `CLAUDE.md` | Claude Code에서 공통 지침을 읽는 진입점 |
@@ -92,3 +94,7 @@
 main은 최신 승인 기획이며 개발·배포 완료를 뜻하지 않습니다. 작성 중인 변경은 기능별 PR에서 검토하고 담당자가 직접 Merge합니다. 업데이트 완료 상태는 spec-UPD-ID-final 태그로 보존하며 태그를 이동시키지 않습니다.
 
 초기 안내 파일만으로 CodeRabbit 앱 연결이나 Discord 알림 설정이 완료된 것은 아닙니다. 각각 연결·실행을 확인한 뒤 운영합니다.
+
+## 작성 기준
+
+- [기획 문서용 PR 양식](.github/pull_request_template.md)
