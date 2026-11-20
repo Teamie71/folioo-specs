@@ -1,0 +1,43 @@
+version: 2
+language: ko-KR
+reviews:
+  profile: chill
+  review_details: true
+  auto_review:
+    enabled: true
+    drafts: true
+    auto_incremental_review: true
+    auto_pause_after_reviewed_commits: 0
+  auto_approvals:
+    enabled: false
+  path_instructions:
+    - path: "features/**/*.md"
+      instructions: |
+        docs/reading-guide.md와 review/criteria.md를 따라 서비스 기획 문서로 검토한다.
+        관련 업데이트 PRD·IA·공통 정책·화면 설명·선택 버전·근거를 확인한다.
+        모순·확인 필요·개선 제안을 구분하고 양쪽 근거 위치를 제시한다.
+        미기록 이유를 만들거나 근거 미기록만으로 병합 차단을 요구하지 않는다.
+    - path: "policies/**/*.md"
+      instructions: |
+        공통 정책과 영향받는 기능·승인된 예외를 함께 검토한다.
+        docs/reading-guide.md와 review/criteria.md를 따른다.
+    - path: "updates/**/*.md"
+      instructions: |
+        해당 업데이트의 PRD·IA·변경 범위와 기능별 신규·유지·수정·개편·폐기를 확인한다.
+        완료 업데이트의 기능 링크가 해당 시점의 태그·커밋으로 고정됐는지 확인한다.
+    - path: "decisions/**/*.md"
+      instructions: |
+        결정·적용 범위·실제 근거·대체 관계를 명세와 비교한다.
+        제안과 확정 결정을 구분하고 이유를 만들어내지 않는다.
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - files: "review/criteria.md"
+        applyTo: "features/**/*.md"
+      - files: "review/criteria.md"
+        applyTo: "policies/**/*.md"
+      - files: "review/criteria.md"
+        applyTo: "updates/**/*.md"
+      - files: "review/criteria.md"
+        applyTo: "decisions/**/*.md"
