@@ -1,4 +1,11 @@
 {
   "schema_version": 1,
-  "documents": []
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "type": "prd",
+      "update_id": "UPD-003",
+      "path": "updates/UPD-003/PRD.md"
+    }
+  ]
 }

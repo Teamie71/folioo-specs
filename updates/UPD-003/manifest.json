@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "update_id": "UPD-003",
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "type": "prd",
+      "path": "PRD.md",
+      "source_type": "notion",
+      "source_url": "https://app.notion.com/p/v-3-PRD-04a66be5909b83dcbdc20121449d4705",
+      "previous_source_url": null,
+      "source_page_id": "04a66be5-909b-83dc-bdc2-0121449d4705",
+      "source_title": "🏄 v.3 PRD",
+      "source_version": "v.3",
+      "source_last_edited_at": "2026-11-20T19:55:42.808Z",
+      "collected_at": "2026-11-20T19:55:42.808Z",
+      "source_content_sha256": "ce8ad1b18eed1e70320d152f52fa7199003fe2e6d978c9a22898bb10d968f728",
+      "repository_content_sha256": "d84f6d7a0ad1019045611db59d72c07e7820fd6dd6bef2aaeb3e42542e53c5fa"
+    }
+  ]
+}

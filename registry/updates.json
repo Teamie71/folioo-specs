@@ -1,5 +1,12 @@
 {
   "schema_version": 1,
-  "current_update_id": null,
-  "updates": []
+  "current_update_id": "UPD-003",
+  "updates": [
+    {
+      "update_id": "UPD-003",
+      "title": "v.3",
+      "path": "updates/UPD-003/README.md",
+      "prd_document_id": "DOC-001"
+    }
+  ]
 }
