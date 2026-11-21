@@ -30,8 +30,6 @@ flowchart TD
 
 ## 폴더와 파일
 
-문서 유형별 배치 기준. `<UPD-ID>`·`<FEAT-ID>`·`<DEC-ID>`·`<policy-name>`은 실제 ID나 이름을 나타내는 자리표시자.
-
 ```text
 folioo-specs/
 ├── updates/                            # 업데이트별 전체 계획
@@ -80,8 +78,6 @@ folioo-specs/
 
 <details>
 <summary>문서 유형별 상세 파일 배치</summary>
-
-문서 유형에 따른 경로와 파일 역할. `<UPD-ID>`·`<FEAT-ID>`·`<DEC-ID>`는 실제 ID를 나타내는 자리표시자.
 
 ### 업데이트 폴더: updates/&lt;UPD-ID&gt;/
 
