@@ -45,7 +45,6 @@ folioo-specs/
 │   └── screens.json                 # 화면 ID와 위치
 ├── README.md                       # 레포 소개와 문서 탐색
 ├── AGENTS.md                       # 조회·관리·검토·커밋·PR 공통 지침
-├── CLAUDE.md                       # Claude Code 호환용 연결
 ├── .coderabbit.yaml                # CodeRabbit 설정
 └── .gitignore                      # 로컬 파일 제외 규칙
 ```
