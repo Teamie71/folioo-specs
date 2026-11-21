@@ -4,7 +4,7 @@
 
 원문 작성은 Notion·Figma·Markdown, 검토·승인본과 변경 이력 관리는 GitHub에서 진행.
 
-**현재 등록: v.3 PRD 1건** · [PRD 읽기](updates/UPD-003/PRD.md) · [v.3 개요](updates/UPD-003/README.md) · [변경 범위](updates/UPD-003/changes.md)
+**현재 등록: v.3 PRD 1건** · [PRD 읽기](updates/UPD-003/PRD.md) · [v.3 개요](updates/UPD-003/update-overview.md) · [변경 범위](updates/UPD-003/changes.md)
 
 ## 관리 구조
 
@@ -36,7 +36,7 @@ flowchart TD
 
 - **[updates/](updates/)** — 업데이트별 계획
     - **[UPD-003/](updates/UPD-003/)** — 제품 업데이트 v.3
-        - [README.md](updates/UPD-003/README.md) — v.3 개요·문서 등록 현황
+        - [update-overview.md](updates/UPD-003/update-overview.md) — v.3 개요·문서 등록 현황
         - [PRD.md](updates/UPD-003/PRD.md) — v.3 전체 기획 (`DOC-001`)
         - [changes.md](updates/UPD-003/changes.md) — 기능별 추가·개편·유지·제거 계획
         - [manifest.json](updates/UPD-003/manifest.json) — 원문 URL·수집 시점·내용 해시
@@ -68,7 +68,7 @@ flowchart TD
 
 | 파일 | 내용 |
 | --- | --- |
-| `README.md` | 업데이트 개요와 관련 문서 진입점 |
+| `update-overview.md` | 업데이트 개요와 관련 문서 진입점 |
 | `PRD.md` | 업데이트 전체 기획 |
 | `IA.md` | IA 텍스트 구조와 Figma 원문 연결, IA 등록 시 생성 |
 | `changes.md` | 기능별 변경·계승 범위와 관련 문서·PR |
@@ -79,7 +79,7 @@ flowchart TD
 
 | 파일 | 내용 |
 | --- | --- |
-| `README.md` | 기능 개요와 관련 명세·화면·정책 진입점 |
+| `feature-overview.md` | 기능 개요와 관련 명세·화면·정책 진입점 |
 | `spec.md` | 기능명세서와 적용 요구사항 |
 | `screen-description.md` | 화면 설명·정책·예외와 화면요소 ID 참조 |
 | `wireframe.json` | 선택한 Figma 파일·페이지·기능 Section·화면 Frame과 버전 |
