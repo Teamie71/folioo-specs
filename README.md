@@ -4,7 +4,7 @@
 
 원문 작성은 Notion·Figma·Markdown, 검토·승인본과 변경 이력 관리는 GitHub에서 진행.
 
-[v.3 개요](updates/UPD-003/update-overview.md) · [v.3 PRD](updates/UPD-003/PRD.md) · [v.3 변경 범위](updates/UPD-003/changes.md)
+[v.3 개요](updates/UPD-003/update-overview.md) · [v.3 PRD](updates/UPD-003/PRD.md) · [v.3 변경 범위](updates/UPD-003/changes.md) · [직무 찾기](features/FEAT-001/feature-overview.md)
 
 ## 관리 구조
 
@@ -41,7 +41,7 @@ folioo-specs/
 │       ├── manifest.json               # 원문·수집 정보
 │       └── release.json                # 업데이트 최종본 참조
 ├── features/                           # 기능별 상세 문서
-│   └── <FEAT-ID>/
+│   └── FEAT-001/                       # 직무 찾기
 │       ├── feature-overview.md         # 기능 개요와 관련 문서
 │       ├── spec.md                     # 기능명세
 │       ├── screen-description.md       # 화면 설명·정책·예외
@@ -50,7 +50,13 @@ folioo-specs/
 │       ├── manifest.json               # 원문·버전·관련 파일
 │       ├── policies/
 │       │   └── <policy-name>.md        # 기능 전용 정책
-│       └── assets/                     # 첨부자료
+│       └── assets/                     # 직무 찾기 DB
+│           ├── job-scores.csv
+│           ├── job-results.csv
+│           ├── company-results.csv
+│           ├── company-scores.csv
+│           ├── interest-questions.csv
+│           └── value-questions.csv
 ├── policies/                           # 공통 정책
 │   └── <policy-name>.md
 ├── decisions/                          # 결정 내용과 근거

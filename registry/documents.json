@@ -6,6 +6,60 @@
       "type": "prd",
       "update_id": "UPD-003",
       "path": "updates/UPD-003/PRD.md"
+    },
+    {
+      "document_id": "DOC-002",
+      "type": "feature_spec",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/spec.md"
+    },
+    {
+      "document_id": "DOC-003",
+      "type": "screen_description",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "document_id": "DOC-004",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "직무 배점표",
+      "path": "features/FEAT-001/assets/job-scores.csv"
+    },
+    {
+      "document_id": "DOC-005",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "직무 결과표",
+      "path": "features/FEAT-001/assets/job-results.csv"
+    },
+    {
+      "document_id": "DOC-006",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "기업 결과표",
+      "path": "features/FEAT-001/assets/company-results.csv"
+    },
+    {
+      "document_id": "DOC-007",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "기업 배점표",
+      "path": "features/FEAT-001/assets/company-scores.csv"
+    },
+    {
+      "document_id": "DOC-008",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "성향 문항",
+      "path": "features/FEAT-001/assets/interest-questions.csv"
+    },
+    {
+      "document_id": "DOC-009",
+      "type": "reference_data",
+      "feature_id": "FEAT-001",
+      "title": "가치관 문항",
+      "path": "features/FEAT-001/assets/value-questions.csv"
     }
   ]
 }

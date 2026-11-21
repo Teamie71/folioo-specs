@@ -1,4 +1,12 @@
 {
   "schema_version": 1,
-  "features": []
+  "features": [
+    {
+      "feature_id": "FEAT-001",
+      "name": "직무 찾기",
+      "status": "active",
+      "path": "features/FEAT-001/feature-overview.md",
+      "last_changed_update_id": "UPD-003"
+    }
+  ]
 }

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "feature_id": "FEAT-001",
+  "last_changed_update_id": "UPD-003",
+  "version_policy": "legacy",
+  "version_policy_source": "사용자 지침: v.3까지 레거시 원문 표기 유지, v.4부터 .0 시작",
+  "wireframe_version": "v.3.9",
+  "description_version": "v.3.9",
+  "description_version_source": "와이어프레임과 화면 옆 설명이 함께 있는 선택 Figma 페이지의 원문 버전",
+  "collected_at": "2026-11-21T06:10:22Z",
+  "rationale_status": "not_recorded",
+  "documents": [
+    {
+      "document_id": "DOC-002",
+      "type": "feature_spec",
+      "path": "spec.md",
+      "source_type": "notion",
+      "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84",
+      "source_page_id": "1a366be5-909b-8281-8f3a-01b2f2da4d84",
+      "source_title": "직무 찾기",
+      "source_version": null,
+      "source_last_edited_at": "2026-10-05T05:31:14.018Z",
+      "source_content_sha256": "70cc4b9968d7718fc6e4225a48a33872d06e3c884ed141e39a8de774ea583cd3",
+      "repository_content_sha256": "73c74a3374737de1266c15d0c3c7235e80805521d0bbe12cce32b84504945e16",
+      "reference_images": [
+        {
+          "source_block_id": "b8a66be5-909b-8209-a0df-818068e3ec20",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#b8a66be5909b8209a0df818068e3ec20"
+        },
+        {
+          "source_block_id": "24c66be5-909b-8299-bf05-01491124e043",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#24c66be5909b8299bf0501491124e043"
+        },
+        {
+          "source_block_id": "0d566be5-909b-82d9-9352-0147d55e2c0e",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#0d566be5909b82d993520147d55e2c0e"
+        },
+        {
+          "source_block_id": "44366be5-909b-8326-a7be-0143dede9631",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#44366be5909b8326a7be0143dede9631"
+        },
+        {
+          "source_block_id": "97566be5-909b-8230-9209-810e31cc36e1",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#97566be5909b82309209810e31cc36e1"
+        },
+        {
+          "source_block_id": "55766be5-909b-822f-ac7b-81e231bb509e",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#55766be5909b822fac7b81e231bb509e"
+        },
+        {
+          "source_block_id": "b0566be5-909b-8243-9367-01713856afe0",
+          "source_url": "https://app.notion.com/p/1a366be5909b82818f3a01b2f2da4d84#b0566be5909b8243936701713856afe0"
+        }
+      ],
+      "resolved_external_object": {
+        "source_block_id": "b4f66be5-909b-8379-8d60-81364cb288d8",
+        "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit"
+      }
+    },
+    {
+      "document_id": "DOC-003",
+      "type": "screen_description",
+      "path": "screen-description.md",
+      "source_type": "figma",
+      "source_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4112",
+      "source_version": "v.3.9",
+      "source_page_label": "v.3.9 (26.09.23)",
+      "source_content_sha256": "3037b3a2648b20f315b046202dc1d12b3b9905a54a5b7f397a236ac8b6b02412",
+      "repository_content_sha256": "16aae7a07937f08d701a310238168331a750aa0c29a408e66a4fd935be2410d3",
+      "text_nodes_collected": 405,
+      "frame_nodes_collected": 7
+    },
+    {
+      "document_id": "DOC-004",
+      "type": "reference_data",
+      "path": "assets/job-scores.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=0",
+      "source_title": "직무 배점표",
+      "source_sheet_id": 0,
+      "source_version": null,
+      "requested_range": "A1:S1004",
+      "exported_rows": 48,
+      "exported_columns": 19,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "330abe89b1b524b717db0e6e4609246e116a88d04937df1222d55861b6c341cc",
+      "repository_content_sha256": "d8aaa45430d52153cd9ecc66807c302d06b0beb8b724f1cd209e343252376301"
+    },
+    {
+      "document_id": "DOC-005",
+      "type": "reference_data",
+      "path": "assets/job-results.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1509671270",
+      "source_title": "직무 결과표",
+      "source_sheet_id": 1509671270,
+      "source_version": null,
+      "requested_range": "A1:Z1003",
+      "exported_rows": 47,
+      "exported_columns": 5,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "d5c5ce02a96ef1a9fe5cafac86c3cdba7f8c21ab78e8ae41201639c9b6359004",
+      "repository_content_sha256": "80992a3311278e2599607663926752ee4d3a721fa103bdd30985f02bcf0a530e"
+    },
+    {
+      "document_id": "DOC-006",
+      "type": "reference_data",
+      "path": "assets/company-results.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1620399878",
+      "source_title": "기업 결과표",
+      "source_sheet_id": 1620399878,
+      "source_version": null,
+      "requested_range": "A1:AA1000",
+      "exported_rows": 7,
+      "exported_columns": 4,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "121fc77e89dbcc1166913ea9bf4a80dce68930db0f712077f02bf1cbc6c9ca97",
+      "repository_content_sha256": "235ee19f1eb9013f063d6985a1b0b275a4c83adfb1c8020257fd533d1f166976"
+    },
+    {
+      "document_id": "DOC-007",
+      "type": "reference_data",
+      "path": "assets/company-scores.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=2011497573",
+      "source_title": "기업 배점표",
+      "source_sheet_id": 2011497573,
+      "source_version": null,
+      "requested_range": "A1:Y1000",
+      "exported_rows": 8,
+      "exported_columns": 7,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "19633103377c559dcc5ec4b01f838f96d7191fd687ebead718efb1182b26f4e7",
+      "repository_content_sha256": "044b237ca76934bc3221bb047cfb6bf8e771b9b4c18fd8df6b8a573495135ece"
+    },
+    {
+      "document_id": "DOC-008",
+      "type": "reference_data",
+      "path": "assets/interest-questions.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=2128224225",
+      "source_title": "성향 문항",
+      "source_sheet_id": 2128224225,
+      "source_version": null,
+      "requested_range": "A1:AA1001",
+      "exported_rows": 17,
+      "exported_columns": 3,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "06b5dd34c81cddf2cb6a8c387a4a8ab95a1561f41fb806e5d567cf5ef6e70bd4",
+      "repository_content_sha256": "c8b2a8663bbe510313937d2c083d7014c0effb085c5de892e2e0a1db70f14959"
+    },
+    {
+      "document_id": "DOC-009",
+      "type": "reference_data",
+      "path": "assets/value-questions.csv",
+      "source_type": "google_sheets",
+      "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1604811951",
+      "source_title": "가치관 문항",
+      "source_sheet_id": 1604811951,
+      "source_version": null,
+      "requested_range": "A1:Z996",
+      "exported_rows": 19,
+      "exported_columns": 5,
+      "render_option": "FORMATTED_VALUE",
+      "source_content_sha256": "496010a8f2b3935bfdd5508a1b41ce2caeec52eb7218926fed4ff4c539c445bc",
+      "repository_content_sha256": "96a5d130ef07ee690d308b4cf9b809d37ef6e1bf40852233859b14b6ce693785"
+    }
+  ],
+  "related_paths": [
+    "feature-overview.md",
+    "spec.md",
+    "screen-description.md",
+    "wireframe.json",
+    "elements.json",
+    "assets/job-scores.csv",
+    "assets/job-results.csv",
+    "assets/company-results.csv",
+    "assets/company-scores.csv",
+    "assets/interest-questions.csv",
+    "assets/value-questions.csv"
+  ]
+}

@@ -1,4 +1,47 @@
 {
   "schema_version": 1,
-  "screens": []
+  "screens": [
+    {
+      "screen_id": "SCR-001",
+      "name": "직무 찾기 - 메인",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-002",
+      "name": "직무 찾기 - 전공",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-003",
+      "name": "직무 찾기 - 흥미",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-004",
+      "name": "직무 찾기 - 가치관",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-005",
+      "name": "직무 찾기 - 대기",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-006",
+      "name": "직무 찾기 - 결과",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    },
+    {
+      "screen_id": "SCR-007",
+      "name": "직무 찾기 - 결과 공유",
+      "feature_id": "FEAT-001",
+      "path": "features/FEAT-001/screen-description.md"
+    }
+  ]
 }
