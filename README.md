@@ -30,23 +30,42 @@ flowchart TD
 
 ## 폴더와 파일
 
+문서 유형별 배치 기준. `<UPD-ID>`·`<FEAT-ID>`·`<DEC-ID>`·`<policy-name>`은 실제 ID나 이름을 나타내는 자리표시자.
+
 ```text
 folioo-specs/
-├── updates/                        # 업데이트별 계획
-│   └── UPD-003/                     # 제품 업데이트 v.3
-│       ├── update-overview.md        # 업데이트 개요와 관련 문서
-│       ├── PRD.md                    # 업데이트 전체 기획
-│       ├── changes.md                # 기능별 변경·계승 범위
-│       └── manifest.json             # 원문·수집 정보
-├── registry/                       # ID와 파일 위치 색인
-│   ├── updates.json                 # 업데이트와 문서 위치
-│   ├── documents.json               # 문서 ID와 위치
-│   ├── features.json                # 기능 ID와 위치
-│   └── screens.json                 # 화면 ID와 위치
-├── README.md                       # 레포 소개와 문서 탐색
-├── AGENTS.md                       # 조회·관리·검토·커밋·PR 공통 지침
-├── .coderabbit.yaml                # CodeRabbit 설정
-└── .gitignore                      # 로컬 파일 제외 규칙
+├── updates/                            # 업데이트별 전체 계획
+│   └── <UPD-ID>/
+│       ├── update-overview.md          # 업데이트 개요와 관련 문서
+│       ├── PRD.md                      # 업데이트 전체 기획
+│       ├── IA.md                       # IA 구조와 Figma 연결
+│       ├── changes.md                  # 기능별 변경·계승 범위
+│       ├── manifest.json               # 원문·수집 정보
+│       └── release.json                # 업데이트 최종본 참조
+├── features/                           # 기능별 상세 문서
+│   └── <FEAT-ID>/
+│       ├── feature-overview.md         # 기능 개요와 관련 문서
+│       ├── spec.md                     # 기능명세
+│       ├── screen-description.md       # 화면 설명·정책·예외
+│       ├── wireframe.json              # Figma 위치와 선택 버전
+│       ├── elements.json               # 화면요소 ID 연결
+│       ├── manifest.json               # 원문·버전·관련 파일
+│       ├── policies/
+│       │   └── <policy-name>.md        # 기능 전용 정책
+│       └── assets/                     # 첨부자료
+├── policies/                           # 공통 정책
+│   └── <policy-name>.md
+├── decisions/                          # 결정 내용과 근거
+│   └── <DEC-ID>.md
+├── registry/                           # ID와 파일 위치 색인
+│   ├── updates.json                    # 업데이트와 문서 위치
+│   ├── documents.json                  # 문서 ID와 위치
+│   ├── features.json                   # 기능 ID와 위치
+│   └── screens.json                    # 화면 ID와 위치
+├── README.md                           # 레포 소개와 문서 탐색
+├── AGENTS.md                           # 조회·관리·검토·커밋·PR 공통 지침
+├── .coderabbit.yaml                    # CodeRabbit 설정
+└── .gitignore                          # 로컬 파일 제외 규칙
 ```
 
 문서 찾기: [업데이트 색인](registry/updates.json) · [기능 색인](registry/features.json) · [화면 색인](registry/screens.json) · [문서 색인](registry/documents.json)
