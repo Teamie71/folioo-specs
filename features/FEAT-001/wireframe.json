@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "feature_id": "FEAT-001",
+  "update_id": "UPD-003",
+  "version_policy": "legacy",
+  "version": "v.3.9",
+  "source_page_label": "v.3.9 (26.09.23)",
+  "file_key": "190ub4CA8flVwOniEWAXRd",
+  "file_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd",
+  "page_node_id": "1677:1132",
+  "page_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-1132",
+  "section_node_id": "1677:4112",
+  "section_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4112",
+  "figma_file_version_id": null,
+  "screens": [
+    {
+      "screen_id": "SCR-001",
+      "name": "직무 찾기 - 메인",
+      "frame_node_id": "1677:4410",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4410",
+      "description_node_ids": [
+        "1677:4604"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-002",
+      "name": "직무 찾기 - 전공",
+      "frame_node_id": "1677:4113",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4113",
+      "description_node_ids": [
+        "1677:4619"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-003",
+      "name": "직무 찾기 - 흥미",
+      "frame_node_id": "1677:4235",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4235",
+      "description_node_ids": [
+        "1677:4650"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-004",
+      "name": "직무 찾기 - 가치관",
+      "frame_node_id": "1677:4184",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4184",
+      "description_node_ids": [
+        "1677:4635"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-005",
+      "name": "직무 찾기 - 대기",
+      "frame_node_id": "1677:4213",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4213",
+      "description_node_ids": [
+        "1677:4667"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-006",
+      "name": "직무 찾기 - 결과",
+      "frame_node_id": "1677:4436",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4436",
+      "description_node_ids": [
+        "1677:4844"
+      ],
+      "description_document_id": "DOC-003"
+    },
+    {
+      "screen_id": "SCR-007",
+      "name": "직무 찾기 - 결과 공유",
+      "frame_node_id": "1677:4700",
+      "frame_url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4700",
+      "description_node_ids": [
+        "1677:4944",
+        "1677:4962"
+      ],
+      "description_document_id": "DOC-003"
+    }
+  ],
+  "auxiliary_nodes": [
+    {
+      "node_id": "1677:5004",
+      "name": "전체 유형 모달",
+      "screen_id": "SCR-006",
+      "url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-5004"
+    },
+    {
+      "node_id": "1677:4974",
+      "name": "링크 복사 토스트",
+      "screen_id": "SCR-006",
+      "url": "https://www.figma.com/design/190ub4CA8flVwOniEWAXRd?node-id=1677-4974"
+    }
+  ]
+}

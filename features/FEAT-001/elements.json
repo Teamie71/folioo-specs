@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "feature_id": "FEAT-001",
+  "version_policy": "legacy",
+  "annotations": [
+    {
+      "screen_id": "SCR-001",
+      "source_marker": "0",
+      "label": "기능 진입 시 표시할 페이지",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4605",
+      "description_title_node_id": "1677:4608",
+      "description_text_node_ids": [
+        "1677:4607"
+      ],
+      "description_marker_node_ids": [
+        "1677:4611"
+      ],
+      "wireframe_marker_node_ids": [],
+      "mapping_status": "page_rule"
+    },
+    {
+      "screen_id": "SCR-001",
+      "source_marker": "1",
+      "label": "‘테스트 시작하기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4612",
+      "description_title_node_id": "1677:4615",
+      "description_text_node_ids": [
+        "1677:4614"
+      ],
+      "description_marker_node_ids": [
+        "1677:4618"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4429"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-002",
+      "source_marker": "1",
+      "label": "전공 태그",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4620",
+      "description_title_node_id": "1677:4623",
+      "description_text_node_ids": [
+        "1677:4622"
+      ],
+      "description_marker_node_ids": [
+        "1677:4626"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4435"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-002",
+      "source_marker": "2",
+      "label": "‘다음 단계로 →’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4627",
+      "description_title_node_id": "1677:4631",
+      "description_text_node_ids": [
+        "1677:4629",
+        "1677:4630"
+      ],
+      "description_marker_node_ids": [
+        "1677:4634"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4183"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-003",
+      "source_marker": "1",
+      "label": "흥미 테스트 문항",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4651",
+      "description_title_node_id": "1677:4655",
+      "description_text_node_ids": [
+        "1677:4653",
+        "1677:4654"
+      ],
+      "description_marker_node_ids": [
+        "1677:4658"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4432"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-003",
+      "source_marker": "2",
+      "label": "‘다음 단계로 →’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4659",
+      "description_title_node_id": "1677:4663",
+      "description_text_node_ids": [
+        "1677:4661",
+        "1677:4662"
+      ],
+      "description_marker_node_ids": [
+        "1677:4666"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4405"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-004",
+      "source_marker": "1",
+      "label": "가치관 밸런스게임 카드",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4636",
+      "description_title_node_id": "1677:4639",
+      "description_text_node_ids": [
+        "1677:4638"
+      ],
+      "description_marker_node_ids": [
+        "1677:4642"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4212"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-004",
+      "source_marker": "2",
+      "label": "‘이전 문항’ 텍스트 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4643",
+      "description_title_node_id": "1677:4646",
+      "description_text_node_ids": [
+        "1677:4645"
+      ],
+      "description_marker_node_ids": [
+        "1677:4649"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4234"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-005",
+      "source_marker": "0",
+      "label": "페이지 이탈",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4668",
+      "description_title_node_id": "1677:4672",
+      "description_text_node_ids": [
+        "1677:4670",
+        "1677:4671"
+      ],
+      "description_marker_node_ids": [
+        "1677:4675"
+      ],
+      "wireframe_marker_node_ids": [],
+      "mapping_status": "page_rule"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": null,
+      "label": "결과 저장",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4845",
+      "description_title_node_id": "1677:4848",
+      "description_text_node_ids": [
+        "1677:4847"
+      ],
+      "description_marker_node_ids": [],
+      "wireframe_marker_node_ids": [],
+      "mapping_status": "page_rule"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "0",
+      "label": "결과 텍스트",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4851",
+      "description_title_node_id": "1677:4854",
+      "description_text_node_ids": [
+        "1677:4853"
+      ],
+      "description_marker_node_ids": [
+        "1677:4857"
+      ],
+      "wireframe_marker_node_ids": [],
+      "mapping_status": "page_rule"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "1",
+      "label": "사용자 이름",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4858",
+      "description_title_node_id": "1677:4861",
+      "description_text_node_ids": [
+        "1677:4860"
+      ],
+      "description_marker_node_ids": [
+        "1677:4864"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4603"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "2",
+      "label": "제목 영역",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4865",
+      "description_title_node_id": "1677:4868",
+      "description_text_node_ids": [
+        "1677:4867"
+      ],
+      "description_marker_node_ids": [
+        "1677:4871"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4572"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "3",
+      "label": "전공 영역",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4872",
+      "description_title_node_id": "1677:4875",
+      "description_text_node_ids": [
+        "1677:4874"
+      ],
+      "description_marker_node_ids": [
+        "1677:4878"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4569"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "4",
+      "label": "흥미 유형 영역",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4879",
+      "description_title_node_id": "1677:4882",
+      "description_text_node_ids": [
+        "1677:4881"
+      ],
+      "description_marker_node_ids": [
+        "1677:4885"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4575"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "5",
+      "label": "‘전체 유형별 특성 보기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4886",
+      "description_title_node_id": "1677:4889",
+      "description_text_node_ids": [
+        "1677:4888"
+      ],
+      "description_marker_node_ids": [
+        "1677:4892"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4578"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "5-1",
+      "label": "전체 유형 모달",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4893",
+      "description_title_node_id": "1677:4894",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4897"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4997"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "6",
+      "label": "선호 근무 조건 영역",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4898",
+      "description_title_node_id": "1677:4901",
+      "description_text_node_ids": [
+        "1677:4900"
+      ],
+      "description_marker_node_ids": [
+        "1677:4904"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4581"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "7",
+      "label": "직무 카드",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4905",
+      "description_title_node_id": "1677:4909",
+      "description_text_node_ids": [
+        "1677:4907",
+        "1677:4908"
+      ],
+      "description_marker_node_ids": [
+        "1677:4912"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4584"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "7-1",
+      "label": "비로그인 직무 카드",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4913",
+      "description_title_node_id": "1677:4914",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4917"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4699"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "8",
+      "label": "기업 형태 카드",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4918",
+      "description_title_node_id": "1677:4922",
+      "description_text_node_ids": [
+        "1677:4920",
+        "1677:4921"
+      ],
+      "description_marker_node_ids": [
+        "1677:4925"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4587"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "8-1",
+      "label": "비로그인 기업 형태 카드",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4926",
+      "description_title_node_id": "1677:4927",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4930"
+      ],
+      "wireframe_marker_node_ids": [],
+      "mapping_status": "needs_confirmation",
+      "candidate_wireframe_marker_node_ids": [
+        "1677:4994"
+      ],
+      "candidate_source_marker": "9-1"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "9",
+      "label": "경험 정리 소개 영상",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4931",
+      "description_title_node_id": "1677:4932",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4935"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4590"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "10",
+      "label": "‘경험 정리 시작하기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4936",
+      "description_title_node_id": "1677:4940",
+      "description_text_node_ids": [
+        "1677:4938",
+        "1677:4939"
+      ],
+      "description_marker_node_ids": [
+        "1677:4943"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4593"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "11",
+      "label": "‘결과 공유하기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4944",
+      "description_title_node_id": "1677:4948",
+      "description_text_node_ids": [
+        "1677:4946",
+        "1677:4947"
+      ],
+      "description_marker_node_ids": [
+        "1677:4951"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4596"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "11-1",
+      "label": "링크 복사 토스트 메세지",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4952",
+      "description_title_node_id": "1677:4953",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4956"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:5003"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "11-2",
+      "label": "[직무 찾기 - 결과 공유] 페이지",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4957",
+      "description_title_node_id": "1677:4958",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4961"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:5000"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "11-3",
+      "label": "‘직무 찾기 테스트 시작하기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4962",
+      "description_title_node_id": "1677:4963",
+      "description_text_node_ids": [],
+      "description_marker_node_ids": [
+        "1677:4966"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4830"
+      ],
+      "mapping_status": "source_markers_paired"
+    },
+    {
+      "screen_id": "SCR-006",
+      "source_marker": "12",
+      "label": "‘테스트 다시 하기’ 버튼",
+      "logical_element_id": null,
+      "description_component_node_id": "1677:4967",
+      "description_title_node_id": "1677:4970",
+      "description_text_node_ids": [
+        "1677:4969"
+      ],
+      "description_marker_node_ids": [
+        "1677:4973"
+      ],
+      "wireframe_marker_node_ids": [
+        "1677:4599"
+      ],
+      "mapping_status": "source_markers_paired"
+    }
+  ]
+}
