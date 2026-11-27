@@ -4,7 +4,7 @@
 
 원문 작성은 Notion·Figma·Markdown, 검토·승인본과 변경 이력 관리는 GitHub에서 진행.
 
-[v.3 개요](updates/UPD-003/update-overview.md) · [v.3 PRD](updates/UPD-003/PRD.md) · [v.3 변경 범위](updates/UPD-003/changes.md) · [직무 찾기](features/FEAT-001/feature-overview.md)
+[v.3 개요](updates/UPD-003/update-overview.md) · [v.3 PRD](updates/UPD-003/PRD.md) · [직무 찾기](features/FEAT-001/feature-overview.md)
 
 ## 관리 구조
 
@@ -12,7 +12,7 @@
 
 | 관리 단위 | 경로 | 담는 내용 |
 | --- | --- | --- |
-| 업데이트별 계획 | `updates/<UPD-ID>/` | 해당 업데이트의 PRD·IA·기능별 변경 목록·최종본 참조 |
+| 업데이트별 계획 | `updates/<UPD-ID>/` | 해당 업데이트의 개요·PRD·IA·최종본 참조 |
 | 기능별 상세 | `features/<FEAT-ID>/` | 기능명세·화면 설명·Figma 와이어프레임 연결·기능 전용 정책 |
 | 공통 정책 | `policies/` | 여러 기능에 공통으로 적용되는 정책 |
 | 결정 근거 | `decisions/` | Notion 의사결정 기록과 관련 기능·화면·문서 연결 |
@@ -34,10 +34,9 @@ flowchart TD
 folioo-specs/
 ├── updates/                            # 업데이트별 전체 계획
 │   └── <UPD-ID>/
-│       ├── update-overview.md          # 업데이트 개요와 관련 문서
+│       ├── update-overview.md          # 업데이트 개요·변경 범위
 │       ├── PRD.md                      # 업데이트 전체 기획
 │       ├── IA.md                       # IA 구조와 Figma 연결
-│       ├── changes.md                  # 기능별 변경·계승 범위
 │       ├── manifest.json               # 원문·수집 정보
 │       └── release.json                # 업데이트 최종본 참조
 ├── features/                           # 기능별 상세 문서
@@ -76,8 +75,8 @@ folioo-specs/
 
 ## 다음 업데이트와 과거 문서
 
-- 새 업데이트: `updates/<새 UPD-ID>/`에 독립 PRD·IA·변경 목록 보관. 이전 업데이트의 계획 문서도 같은 위치에 보존.
-- 같은 기능의 유지·수정: `features/<같은 FEAT-ID>/`의 문서 계승·갱신. 업데이트의 변경 목록에서 신규·유지·일부 수정·전면 개편·폐기와 대상 문서 연결.
+- 새 업데이트: `updates/<새 UPD-ID>/`에 독립 개요·PRD·IA 보관. 이전 업데이트의 계획 문서도 같은 위치에 보존.
+- 같은 기능의 유지·수정: `features/<같은 FEAT-ID>/`의 문서 계승·갱신. 업데이트 개요의 변경 범위에서 신규·유지·일부 수정·전면 개편·폐기와 대상 문서 연결.
 - 과거 최종본: 업데이트 완료 시 `release.json`에 확정한 참조와 고정 태그·승인 커밋으로 당시 기능·정책 조회.
 
 문서·버전·계승·승인·PR 작성의 상세 기준은 [AGENTS.md](AGENTS.md) 참조.
@@ -89,10 +88,9 @@ folioo-specs/
 
 | 파일 | 내용 |
 | --- | --- |
-| `update-overview.md` | 업데이트 개요와 관련 문서 진입점 |
+| `update-overview.md` | 기획 방향·기능별 변경·계승 범위와 관련 문서 |
 | `PRD.md` | 업데이트 전체 기획 |
 | `IA.md` | IA 텍스트 구조와 Figma 원문 연결 |
-| `changes.md` | 기능별 변경·계승 범위와 관련 문서·PR |
 | `manifest.json` | 업데이트 문서의 원문·수집 정보 |
 | `release.json` | 완료 시 확정한 문서·버전·계승 출처·고정 참조 |
 
