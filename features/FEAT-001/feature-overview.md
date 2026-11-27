@@ -1,6 +1,6 @@
 # 직무 찾기
 
-[v.3 개요](../../updates/UPD-003/update-overview.md) / **FEAT-001**
+[v.3 PRD](../../updates/UPD-003/PRD.md) / **FEAT-001**
 
 경험·포트폴리오가 없는 저학년 사용자의 직무 탐색과 경험 정리 전환을 위한 테스트 기능.
 
