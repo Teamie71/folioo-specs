@@ -73,7 +73,7 @@
     {
       "document_id": "DOC-004",
       "type": "reference_data",
-      "path": "assets/job-scores.csv",
+      "path": "assets/data/job-scores.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=0",
       "source_title": "직무 배점표",
@@ -89,7 +89,7 @@
     {
       "document_id": "DOC-005",
       "type": "reference_data",
-      "path": "assets/job-results.csv",
+      "path": "assets/data/job-results.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1509671270",
       "source_title": "직무 결과표",
@@ -105,7 +105,7 @@
     {
       "document_id": "DOC-006",
       "type": "reference_data",
-      "path": "assets/company-results.csv",
+      "path": "assets/data/company-results.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1620399878",
       "source_title": "기업 결과표",
@@ -121,7 +121,7 @@
     {
       "document_id": "DOC-007",
       "type": "reference_data",
-      "path": "assets/company-scores.csv",
+      "path": "assets/data/company-scores.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=2011497573",
       "source_title": "기업 배점표",
@@ -137,7 +137,7 @@
     {
       "document_id": "DOC-008",
       "type": "reference_data",
-      "path": "assets/interest-questions.csv",
+      "path": "assets/data/interest-questions.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=2128224225",
       "source_title": "성향 문항",
@@ -153,7 +153,7 @@
     {
       "document_id": "DOC-009",
       "type": "reference_data",
-      "path": "assets/value-questions.csv",
+      "path": "assets/data/value-questions.csv",
       "source_type": "google_sheets",
       "source_url": "https://docs.google.com/spreadsheets/d/1S3-wFH48P2mxUO8HgXDJP6RVoCuzPa-6pcjPwwyxj3Y/edit#gid=1604811951",
       "source_title": "가치관 문항",
@@ -173,11 +173,11 @@
     "screen-description.md",
     "wireframe.json",
     "elements.json",
-    "assets/job-scores.csv",
-    "assets/job-results.csv",
-    "assets/company-results.csv",
-    "assets/company-scores.csv",
-    "assets/interest-questions.csv",
-    "assets/value-questions.csv"
+    "assets/data/job-scores.csv",
+    "assets/data/job-results.csv",
+    "assets/data/company-results.csv",
+    "assets/data/company-scores.csv",
+    "assets/data/interest-questions.csv",
+    "assets/data/value-questions.csv"
   ]
 }

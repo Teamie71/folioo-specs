@@ -33,6 +33,14 @@
 - `registry/`에는 업데이트·기능·화면·문서의 ID와 위치 기록.
 - 버전은 문서·메타데이터에 기록하며 파일명에 붙여 복제하지 않음.
 
+## 첨부자료와 화면 이미지
+
+- 참고 데이터는 `assets/data/`, 와이어프레임 PNG는 `assets/wireframes/`에서 관리. 자료 이동 시 기존 문서 ID와 내용 유지, 색인·manifest·상대 링크 함께 갱신.
+- 화면 이미지는 `<SCR-ID>.png`, 보조 상태는 `<SCR-ID>-<state-name>.png`, Section 전체는 `overview.png` 사용. 이미지 파일명에 버전을 붙이지 않으며 별도 문서·화면 ID 추가 없이 기존 화면에 연결.
+- `wireframe.json`의 `screens[].image_path`·`auxiliary_nodes[].image_path`·`section_image_path`에 기능 폴더 기준 상대 경로 기록. `manifest.json`의 `assets[]`에 `path`·`source_url`·`source_node_id`·`captured_at`·`width`·`height`·`sha256` 기록.
+- 이미지 파일·연결 경로·수집 정보는 같은 커밋에 반영하고 화면 설명에서 해당 화면 이미지와 Figma 원문 링크 제공.
+- 변경된 화면 이미지만 갱신하고 과거 모습은 Git 커밋·완료 태그로 조회. 화면 설명만 수정하면 화면별 PNG 유지. Section 전체 이미지는 배치·주석 변경도 반영.
+
 ## 화면·버전·ID
 
 - Figma 구조: 업데이트별 파일 → 버전별 페이지 → 기능 Section → 화면 Frame. 여러 기능의 페이지 공유 허용. 공통 컴포넌트 영역과 의존 관계 구분.

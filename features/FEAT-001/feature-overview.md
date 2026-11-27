@@ -32,9 +32,9 @@
 
 | 자료 | 파일 | 내용 |
 | --- | --- | --- |
-| 직무 배점표 `DOC-004` | [job-scores.csv](assets/job-scores.csv) | 전공별 적용 값과 성향 6특성의 직무별 배점 |
-| 직무 결과표 `DOC-005` | [job-results.csv](assets/job-results.csv) | 직무 소개·핵심 스킬·추천 활동 |
-| 기업 결과표 `DOC-006` | [company-results.csv](assets/company-results.csv) | 기업 형태별 특징과 팁 |
-| 기업 배점표 `DOC-007` | [company-scores.csv](assets/company-scores.csv) | 기업 형태별 가치관 배점 |
-| 성향 문항 `DOC-008` | [interest-questions.csv](assets/interest-questions.csv) | 성향 특성별 질문과 양자 비교 문항 |
-| 가치관 문항 `DOC-009` | [value-questions.csv](assets/value-questions.csv) | 가치관 비교 카드와 결과 제목 문구 |
+| 직무 배점표 `DOC-004` | [job-scores.csv](assets/data/job-scores.csv) | 전공별 적용 값과 성향 6특성의 직무별 배점 |
+| 직무 결과표 `DOC-005` | [job-results.csv](assets/data/job-results.csv) | 직무 소개·핵심 스킬·추천 활동 |
+| 기업 결과표 `DOC-006` | [company-results.csv](assets/data/company-results.csv) | 기업 형태별 특징과 팁 |
+| 기업 배점표 `DOC-007` | [company-scores.csv](assets/data/company-scores.csv) | 기업 형태별 가치관 배점 |
+| 성향 문항 `DOC-008` | [interest-questions.csv](assets/data/interest-questions.csv) | 성향 특성별 질문과 양자 비교 문항 |
+| 가치관 문항 `DOC-009` | [value-questions.csv](assets/data/value-questions.csv) | 가치관 비교 카드와 결과 제목 문구 |
